@@ -1,7 +1,7 @@
 #ifndef GAMECORE_H
 #define GAMECORE_H
 
-#include <Arduboy.h>
+#include <Arduboy2.h>
 #include <avr/pgmspace.h>
 #include "arduis_bitmaps.h"
 
@@ -18,7 +18,7 @@ const byte SHOT_NORMAL = 1;
 const byte SHOT_DOUBLE = 2;
 const byte SHOT_LASER = 3;
 const byte SHOT_MAX = 10;
-const byte OPTION_MAX = 4;
+const byte OPTION_MAX = 5;
 const byte BARRIER_LIFE = 16;
 const byte ENEMY_SHOT_MAX = 4;
 const byte ENEMY_IONRING_MAX = 8;
@@ -33,7 +33,7 @@ const byte BTN_R = 8;
 const byte BTN_A = 16;
 const byte BTN_B = 32;
 
-extern Arduboy arduboy;
+extern Arduboy2Base arduboy;
 extern byte gameMode;
 extern byte nowInput;
 extern byte prevInput;

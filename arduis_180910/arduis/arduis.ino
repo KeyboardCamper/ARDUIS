@@ -1,6 +1,6 @@
-#include <SPI.h>
+//#include <SPI.h>
 #include <EEPROM.h>
-#include <Arduboy.h>
+#include <Arduboy2.h>
 #include "gamecore.h"
 
 void setup() {

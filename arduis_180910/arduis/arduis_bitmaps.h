@@ -110,5 +110,3 @@ extern const unsigned char title_15[];
 extern const unsigned char title_16[];
 extern const unsigned char title_17[];
 #endif
-
-

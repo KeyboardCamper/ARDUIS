@@ -7,7 +7,7 @@
 #include "collision.h"
 #include "ui.h"
 
-Arduboy arduboy;
+Arduboy2Base arduboy;
 Title title;
 extern StarManager starManager;
 extern Jiki jiki;
@@ -44,7 +44,9 @@ byte rndH;
 
 void setupcore() {
 	//arduboy.begin();
-	arduboy.beginNoLogo();
+	//arduboy.beginNoLogo();
+  arduboy.boot();
+  arduboy.flashlight();
 	arduboy.setFrameRate(60);
 
 }
